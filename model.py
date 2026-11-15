@@ -1,99 +1,86 @@
+"""Configurable stacked-LSTM + multi-head attention pooling classifier."""
+from dataclasses import dataclass
+from typing import Sequence
 import torch
 from torch import nn
-from torch.utils.data import DataLoader
-import random
-import os
 
-device = torch.accelerator.current_accelerator().type if torch.accelerator.is_available() else "cpu"
-savepath = "models\\typing_model.pth"
 
-class NeuralNetwork(nn.Module):
-    def __init__(self):
-        self.lstm1 = nn.LSTM()
+@dataclass
+class ModelConfig:
+    input_size: int = 8
+    lstm_hidden_sizes: Sequence[int] = (64, 64, 32)
+    attention_heads: int = 4
+    attention_hidden_size: int = 32
+    dropout: float = 0.30
+
+
+class AttentionPooling(nn.Module):
+    """Learns several independent temporal attention summaries."""
+    def __init__(self, input_size: int, heads: int = 4, attention_hidden_size: int = 32):
         super().__init__()
+        if heads < 1:
+            raise ValueError("attention_heads must be >= 1")
+        self.heads = heads
+        self.scorers = nn.ModuleList([
+            nn.Sequential(
+                nn.Linear(input_size, attention_hidden_size),
+                nn.Tanh(),
+                nn.Linear(attention_hidden_size, 1, bias=False),
+            ) for _ in range(heads)
+        ])
 
-    def forward(self, x):
-        self.lstm1.
-        return out
+    def forward(self, sequence, lengths):
+        # sequence: [batch, time, features], lengths: [batch]
+        batch, time, _ = sequence.shape
+        positions = torch.arange(time, device=sequence.device).unsqueeze(0)
+        mask = positions >= lengths.unsqueeze(1)
+        pooled = []
+        for scorer in self.scorers:
+            scores = scorer(sequence).squeeze(-1)
+            scores = scores.masked_fill(mask, torch.finfo(scores.dtype).min)
+            weights = torch.softmax(scores, dim=1)
+            pooled.append(torch.sum(sequence * weights.unsqueeze(-1), dim=1))
+        return torch.cat(pooled, dim=-1)
 
-def train(dataloader, model, loss_fn, optimizer):
-    size = len(dataloader.dataset)
-    model.train()
-    for batch, (X,y) in enumerate(dataloader):
-        X, y = X.to(device), y.to(device)
-        hot = nn.functional.one_hot(y, 10)
 
-        X = rand_transform_batch(X)
-        # X = X + ((torch.rand(X.size()) - 0.5) * 10).to(device)
+class KeystrokeLSTM(nn.Module):
+    def __init__(self, config: ModelConfig):
+        super().__init__()
+        sizes = list(config.lstm_hidden_sizes)
+        if not sizes or any(int(s) <= 0 for s in sizes):
+            raise ValueError("lstm_hidden_sizes must be a non-empty list of positive integers")
 
-        pred = model(X)
-        loss = loss_fn(pred, hot)
+        self.lstm_layers = nn.ModuleList()
+        previous = config.input_size
+        for hidden in sizes:
+            self.lstm_layers.append(nn.LSTM(
+                input_size=previous,
+                hidden_size=int(hidden),
+                num_layers=1,
+                batch_first=True,
+            ))
+            previous = int(hidden)
 
-        loss.backward()
-        optimizer.step()
-        optimizer.zero_grad()
+        self.dropout = nn.Dropout(config.dropout)
+        self.attention = AttentionPooling(
+            previous, config.attention_heads, config.attention_hidden_size
+        )
+        pooled_size = previous * config.attention_heads
+        self.classifier = nn.Sequential(
+            nn.Linear(pooled_size, max(16, previous)),
+            nn.ReLU(),
+            nn.Dropout(config.dropout),
+            nn.Linear(max(16, previous), 1),
+        )
 
-        if batch % 100 == 0:
-            print(f"Batch: {batch}, loss: {loss.item()}")
+    def forward(self, x, lengths):
+        for layer in self.lstm_layers:
+            x, _ = layer(x)
+            x = self.dropout(x)
+        pooled = self.attention(x, lengths)
+        logits = self.classifier(pooled).squeeze(-1)
+        return logits  # pass through sigmoid for probabilities; use logits for BCEWithLogitsLoss
 
-def rand_transform_batch(data):
-    new_data = torch.roll(
-        data,
-        random.randint(-1, 1),
-        1
-    )
-    new_data = new_data.roll(
-        random.randint(-1, 1),
-        2
-    )
-    new_data = F.rotate(new_data, random.randint(-10, 10))
-    return new_data
-
-def rand_transform(data):
-    new_data = torch.roll(
-        data,
-        random.randint(-1, 1),
-        0
-    )
-    new_data = new_data.roll(
-        random.randint(-1, 1),
-        1
-    )
-    new_data = new_data.unsqueeze(0)
-    new_data = F.rotate(new_data, random.randint(-10, 10))
-    new_data = new_data.squeeze(0)
-    return new_data
-
-def test(dataloader, model, loss_fn):
-    size = len(dataloader.dataset)
-    num_batches = len(dataloader)
-    model.eval()
-    test_loss, correct = 0, 0
-    with torch.no_grad():
-        for X, y in dataloader:
-            X, y = X.to(device), y.to(device)
-            pred = model(X)
-            hot = nn.functional.one_hot(y, 10)
-            test_loss += loss_fn(pred, hot).item()
-            number_predicted = pred.argmax(1)
-            for i in range(len(y)):
-                if y[i] == number_predicted[i]:
-                    correct += 1
-    test_loss /= num_batches
-    correct /= size
-    print(f"Percent correct: {100*correct:>0.1f}%")
-    print(f"Avg Loss: {test_loss:>8f}")
-
-def run(model, grid):
-    tensor = torch.tensor([grid], dtype=torch.float).to(device)
-    model.eval()
-    with torch.no_grad():
-        pred = model(tensor)
-        return pred.squeeze(0)
-
-def load(model):
-    if os.path.exists(savepath):
-        model.load_state_dict(torch.load(savepath, weights_only=True))
-
-def save(model):
-    torch.save(model.state_dict(), savepath)
+    @torch.no_grad()
+    def predict_proba(self, x, lengths):
+        return torch.sigmoid(self.forward(x, lengths))
