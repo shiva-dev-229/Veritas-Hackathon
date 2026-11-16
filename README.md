@@ -64,6 +64,49 @@ The model is a sequence model built in PyTorch:
 | API | Django (Python) |
 | Model | PyTorch |
 
+## Model performance
+
+**Evaluation setup:**
+
+- **Data:** Tappy keystroke data, split by participant. 161 participants were used for training and 41 were held out for testing, and no participant appears in both. The split was stratified by label.
+- **What was scored:** 96,366 five-minute typing windows from the 41 test participants.
+- **Positive class:** Parkinson's. A window counts as a Parkinson's prediction when the model's probability is 0.5 or higher.
+- **Checkpoint:** the saved best model, at epoch 86 of 100.
+
+| Metric | Value |
+|---|---|
+| Accuracy | 71.8% |
+| Precision | 93.5% |
+| Sensitivity (recall) | 74.8% |
+| Specificity | 32.4% |
+| F1 score | 83.1% |
+| ROC AUC | 0.601 |
+| Final training loss | 0.092 (epoch 86) |
+
+- **Accuracy:** share of all test windows the model labeled correctly.
+- **Precision:** of the windows the model flagged as Parkinson's, the share that really came from people with Parkinson's.
+- **Sensitivity (recall):** share of windows from people with Parkinson's that the model correctly flagged.
+- **Specificity:** share of windows from healthy people that the model correctly cleared.
+- **F1 score:** a single score that balances precision and sensitivity.
+- **ROC AUC:** how well the model's scores rank Parkinson's windows above healthy ones across all thresholds. 0.5 is chance and 1.0 is perfect.
+- **Training loss:** the model's error on the training data. Lower means it fits the training data more closely.
+
+### Limitations
+
+- **Most healthy users would be flagged.** Specificity is about 32%, so roughly two out of three windows from healthy people are wrongly flagged as possible Parkinson's.
+- **The classes are heavily imbalanced.** The test set has 31 participants with Parkinson's and 10 without. By window, 89,436 (93%) come from people with Parkinson's and 6,930 from controls. When one class dominates like this, accuracy, precision and F1 look better than the model really is. A model that flagged every window would already have 93% precision.
+- **Separation is weak.** A ROC AUC of about 0.60 is only modestly better than chance (0.50), so the model has limited ability to tell the two groups apart.
+- **The model is probably overfitting.** These metrics come from held-out participants. The training loss is low (0.092), but performance on new people is much weaker, which suggests the model learned patterns specific to the training participants.
+- **The results are likely optimistic.** There is no separate validation set. The saved checkpoint was chosen by its ROC AUC on these same test participants.
+- **Per-person results are not reported.** All metrics are per window, not per person. Windows from the same person are correlated, so with only 10 control participants in the test set, these numbers are uncertain.
+- **This is not a diagnostic tool.** This is a hackathon prototype and a screening aid, not a diagnosis, and it has not been clinically validated.
+
+**Next steps:**
+
+- Rebalance the data, for example by collecting more control participants. Training already weights the classes, but that has not been enough.
+- Add a validation split for choosing checkpoints, and report per-person metrics.
+- Tune the decision threshold to trade sensitivity against specificity.
+
 ## Results
 
 All numbers are on the 20% held-out test data.
