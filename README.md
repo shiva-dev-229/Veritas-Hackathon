@@ -6,6 +6,8 @@
 **Team:** Gearheads (Shivansh Upadhyay, Dirk Winberg)  
 **Event:** Veritas AI International High School Hackathon 2026
 
+Setup instructions are in [INSTALL.md](INSTALL.md).
+
 ---
 
 ## The Problem
