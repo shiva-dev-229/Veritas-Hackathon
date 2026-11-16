@@ -10,7 +10,7 @@ Setup instructions are in [INSTALL.md](INSTALL.md).
 
 ---
 ## Video
-https://github.com/shiva-dev-229/PEAS
+https://www.youtube.com/watch?v=2C0Kwnolxrc&feature=youtu.be
 
 ## The Problem
 
