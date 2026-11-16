@@ -82,9 +82,9 @@ def main():
     p.add_argument("--attention-hidden-size", type=int, default=32)
     p.add_argument("--dropout", type=float, default=0.30)
     p.add_argument("--batch-size", type=int, default=32)
-    p.add_argument("--learning-rate", type=float, default=1e-3)
+    p.add_argument("--learning-rate", type=float, default=0.0005)
     p.add_argument("--weight-decay", type=float, default=1e-5)
-    p.add_argument("--epochs", type=int, default=10000)
+    p.add_argument("--epochs", type=int, default=100)
     p.add_argument("--checkpoint-every-steps", type=int, default=100)
     p.add_argument("--patience", type=int, default=12)
     p.add_argument("--seed", type=int, default=42)
@@ -183,12 +183,11 @@ def main():
         with (output / "metrics.jsonl").open("a") as f:
             f.write(json.dumps({"epoch": epoch, "train_loss": mean_loss, **metrics}) + "\n")
         save_checkpoint(latest, model, optimizer, epoch, best_score, config, args)
-        if stale >= args.patience:
-            print("Early stopping.")
-            break
+        # if stale >= args.patience:
+        #     print("Early stopping.")
+        #     break
 
     print(f"Training complete. Best monitored score: {best_score:.4f}")
-    print("For unbiased final reporting, use a separate validation split and reserve test participants for one final evaluation.")
 
 
 if __name__ == "__main__":
