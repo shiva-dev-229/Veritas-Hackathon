@@ -850,3 +850,12 @@
 /data/TappyData/ZY9CCHSPF2_1612.txt
 /data/TappyData/ZY9CCHSPF2_1701.txt
 /data/TappyData/ZYWLN4JVLA_1701.txt
+
+# local environments and tooling
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.idea/
+.playwright-mcp/
+/model/data/

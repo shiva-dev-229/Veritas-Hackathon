@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" data-theme="default">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>peas</title>
+  <script>try{var t=localStorage.getItem('peas-theme');document.documentElement.setAttribute('data-theme',t||'default')}catch(e){document.documentElement.setAttribute('data-theme','default')}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/picker.css">
+</head>
+<body>
+  <header>
+    <div class="brand accent">peas</div>
+    <div class="mode">keystroke test</div>
+    <div class="live"><span id="timer">0</span>s <span class="sep">·</span> <span id="liveWpm">0</span> wpm</div>
+  </header>
+
+  <main>
+    <section id="pretest" class="panel">
+      <h2>before you start <span class="sub">(optional)</span></h2>
+      <div class="fields">
+        <label>age <input id="age" type="number" min="1" max="120" placeholder="-"></label>
+        <label>gender
+          <select id="gender">
+            <option value="">prefer not to say</option>
+            <option value="female">female</option>
+            <option value="male">male</option>
+            <option value="other">other</option>
+          </select>
+        </label>
+      </div>
+      <div class="actions">
+        <button id="startBtn">start</button>
+        <button id="skipBtn" class="ghost">skip</button>
+      </div>
+    </section>
+
+    <section id="test" class="hidden">
+      <div id="wordsWrap">
+        <div id="words"></div>
+        <div id="caret" class="idle"></div>
+      </div>
+      <div class="hint"><kbd>tab</kbd> + <kbd>enter</kbd> restart &nbsp; <kbd>esc</kbd> reset</div>
+    </section>
+
+    <section id="results" class="hidden">
+      <div class="big">
+        <div><div class="label">wpm</div><div id="resWpm" class="value">-</div></div>
+        <div><div class="label">acc</div><div id="resAcc" class="value">-</div></div>
+      </div>
+      <div class="stats">
+        <div><div class="label">keystrokes</div><div id="resKeys">-</div></div>
+        <div><div class="label">mean hold</div><div id="resHold">-</div></div>
+        <div><div class="label">mean latency</div><div id="resLatency">-</div></div>
+        <div><div class="label">mean flight</div><div id="resFlight">-</div></div>
+      </div>
+      <div class="score panel">
+        <div class="label">model score</div>
+        <div id="scoreBody">-</div>
+        <ul id="scoreWarnings" class="score-warnings"></ul>
+        <div id="scoreNote">screening aid, not a diagnosis</div>
+      </div>
+      <div class="chart">
+        <div class="label">hold time distribution (ms)</div>
+        <canvas id="histogram" width="800" height="160"></canvas>
+      </div>
+      <div class="actions">
+        <button id="btnCsv">download csv</button>
+        <button id="btnJson">download json</button>
+        <button id="btnCopy">copy json</button>
+        <button id="btnRestart">restart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="footerBar"><button id="themeBtn" class="ghost">theme</button></div>
+    peas is a research screening aid, not a diagnosis. Only key timing is recorded; no typed text or key identities are stored or sent.
+  </footer>
+
+  <script src="js/features.js"></script>
+  <script src="js/capture.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/results.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/test.js"></script>
+</body>
+</html>

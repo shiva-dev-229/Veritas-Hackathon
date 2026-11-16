@@ -1,0 +1,134 @@
+/* peas color themes. The only file with literal colors.
+   Each theme sets: --bg --main --sub --sub-alt --text --error --error-extra */
+
+/* default */
+:root, [data-theme="default"] {
+  --bg: #323437;
+  --main: #e2b714;
+  --sub: #646669;
+  --sub-alt: #2c2e31;
+  --text: #d1d0c5;
+  --error: #ca4754;
+  --error-extra: #c24451;
+}
+
+/* light */
+[data-theme="light"] {
+  --bg: #f5f1e8;
+  --main: #a35200;
+  --sub: #7d7868;
+  --sub-alt: #e8e1d0;
+  --text: #2b2a26;
+  --error: #b3261e;
+  --error-extra: #d7837d;
+}
+
+/* dracula */
+[data-theme="dracula"] {
+  --bg: #282a36;
+  --main: #f1fa8c;
+  --sub: #6272a4;
+  --sub-alt: #21222c;
+  --text: #f8f8f2;
+  --error: #ff5555;
+  --error-extra: #b53f3f;
+}
+
+/* nord */
+[data-theme="nord"] {
+  --bg: #2e3440;
+  --main: #88c0d0;
+  --sub: #6b7890;
+  --sub-alt: #3b4252;
+  --text: #eceff4;
+  --error: #bf616a;
+  --error-extra: #ab565f;
+}
+
+/* solarized-dark */
+[data-theme="solarized-dark"] {
+  --bg: #002b36;
+  --main: #b58900;
+  --sub: #5f7779;
+  --sub-alt: #073642;
+  --text: #eee8d5;
+  --error: #dc322f;
+  --error-extra: #bf2b29;
+}
+
+/* solarized-light */
+[data-theme="solarized-light"] {
+  --bg: #fdf6e3;
+  --main: #8a6400;
+  --sub: #768a8c;
+  --sub-alt: #eee8d5;
+  --text: #073642;
+  --error: #c4231f;
+  --error-extra: #dd7f7b;
+}
+
+/* gruvbox-dark */
+[data-theme="gruvbox-dark"] {
+  --bg: #282828;
+  --main: #fabd2f;
+  --sub: #928374;
+  --sub-alt: #3c3836;
+  --text: #ebdbb2;
+  --error: #fb4934;
+  --error-extra: #b93326;
+}
+
+/* catppuccin-mocha */
+[data-theme="catppuccin-mocha"] {
+  --bg: #1e1e2e;
+  --main: #f9e2af;
+  --sub: #6c7086;
+  --sub-alt: #181825;
+  --text: #cdd6f4;
+  --error: #f38ba8;
+  --error-extra: #8c4a5c;
+}
+
+/* rose-pine */
+[data-theme="rose-pine"] {
+  --bg: #191724;
+  --main: #f6c177;
+  --sub: #6e6a86;
+  --sub-alt: #1f1d2e;
+  --text: #e0def4;
+  --error: #eb6f92;
+  --error-extra: #8e4257;
+}
+
+/* monokai */
+[data-theme="monokai"] {
+  --bg: #272822;
+  --main: #e6db74;
+  --sub: #8f8b74;
+  --sub-alt: #1e1f1c;
+  --text: #f8f8f2;
+  --error: #f92672;
+  --error-extra: #bf1f59;
+}
+
+/* forest */
+[data-theme="forest"] {
+  --bg: #1a2b1f;
+  --main: #9bd17a;
+  --sub: #6b8a70;
+  --sub-alt: #132118;
+  --text: #d9e4d0;
+  --error: #e07a5f;
+  --error-extra: #975140;
+}
+
+/* high-contrast */
+[data-theme="high-contrast"] {
+  --bg: #000000;
+  --main: #ffff00;
+  --sub: #b0b0b0;
+  --sub-alt: #141414;
+  --text: #ffffff;
+  --error: #ff3b3b;
+  --error-extra: #a01e1e;
+}

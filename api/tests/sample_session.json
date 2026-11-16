@@ -1,0 +1,2417 @@
+{
+  "meta": {
+    "age": 45,
+    "gender": "female",
+    "startedAt": "2026-11-15T10:00:00.000Z",
+    "userAgent": "pytest"
+  },
+  "rows": [
+    {
+      "timestamp": 0.0,
+      "hand": "R",
+      "hold_time": 150.22,
+      "latency": null,
+      "flight": null,
+      "direction": null
+    },
+    {
+      "timestamp": 226.12,
+      "hand": "R",
+      "hold_time": 113.06,
+      "latency": 226.12,
+      "flight": 75.9,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 365.45,
+      "hand": "L",
+      "hold_time": 96.22,
+      "latency": 139.33,
+      "flight": 26.27,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 606.92,
+      "hand": "R",
+      "hold_time": 99.52,
+      "latency": 241.47,
+      "flight": 145.25,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 757.07,
+      "hand": "L",
+      "hold_time": 98.03,
+      "latency": 150.15,
+      "flight": 50.63,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 914.38,
+      "hand": "R",
+      "hold_time": 130.07,
+      "latency": 157.32,
+      "flight": 59.29,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 1150.06,
+      "hand": "L",
+      "hold_time": 101.6,
+      "latency": 235.68,
+      "flight": 105.61,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 1433.55,
+      "hand": "R",
+      "hold_time": 95.26,
+      "latency": 283.49,
+      "flight": 181.89,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 1604.01,
+      "hand": "L",
+      "hold_time": 117.08,
+      "latency": 170.46,
+      "flight": 75.2,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 1712.43,
+      "hand": "L",
+      "hold_time": 80.19,
+      "latency": 108.42,
+      "flight": -8.66,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 1887.26,
+      "hand": "R",
+      "hold_time": 75.73,
+      "latency": 174.82,
+      "flight": 94.63,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 2076.61,
+      "hand": "L",
+      "hold_time": 93.09,
+      "latency": 189.36,
+      "flight": 113.62,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 2389.38,
+      "hand": "R",
+      "hold_time": 152.23,
+      "latency": 312.77,
+      "flight": 219.68,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 2618.39,
+      "hand": "R",
+      "hold_time": 134.28,
+      "latency": 229.01,
+      "flight": 76.78,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 2822.96,
+      "hand": "R",
+      "hold_time": 116.02,
+      "latency": 204.56,
+      "flight": 70.29,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 2939.59,
+      "hand": "R",
+      "hold_time": 77.08,
+      "latency": 116.64,
+      "flight": 0.62,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 3111.47,
+      "hand": "L",
+      "hold_time": 109.13,
+      "latency": 171.88,
+      "flight": 94.79,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 3235.96,
+      "hand": null,
+      "hold_time": 112.55,
+      "latency": 124.49,
+      "flight": 15.36,
+      "direction": "S"
+    },
+    {
+      "timestamp": 3404.52,
+      "hand": "L",
+      "hold_time": 80.97,
+      "latency": 168.56,
+      "flight": 56.02,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 3604.37,
+      "hand": null,
+      "hold_time": 90.48,
+      "latency": 199.85,
+      "flight": 118.88,
+      "direction": "S"
+    },
+    {
+      "timestamp": 3816.35,
+      "hand": "R",
+      "hold_time": 101.97,
+      "latency": 211.98,
+      "flight": 121.5,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 4058.48,
+      "hand": "L",
+      "hold_time": 79.23,
+      "latency": 242.12,
+      "flight": 140.16,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 4190.47,
+      "hand": "R",
+      "hold_time": 65.56,
+      "latency": 132.0,
+      "flight": 52.76,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 4430.33,
+      "hand": "R",
+      "hold_time": 89.49,
+      "latency": 239.85,
+      "flight": 174.29,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 4631.32,
+      "hand": "R",
+      "hold_time": 113.63,
+      "latency": 200.99,
+      "flight": 111.5,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 4797.96,
+      "hand": "L",
+      "hold_time": 87.66,
+      "latency": 166.64,
+      "flight": 53.01,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 4961.93,
+      "hand": null,
+      "hold_time": 81.46,
+      "latency": 163.98,
+      "flight": 76.32,
+      "direction": "S"
+    },
+    {
+      "timestamp": 5204.62,
+      "hand": "L",
+      "hold_time": 103.21,
+      "latency": 242.69,
+      "flight": 161.23,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 5454.61,
+      "hand": "L",
+      "hold_time": 107.32,
+      "latency": 249.99,
+      "flight": 146.78,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 5597.34,
+      "hand": "L",
+      "hold_time": 104.74,
+      "latency": 142.73,
+      "flight": 35.4,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 5751.41,
+      "hand": "L",
+      "hold_time": 112.14,
+      "latency": 154.07,
+      "flight": 49.33,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 5851.51,
+      "hand": "L",
+      "hold_time": 91.9,
+      "latency": 100.1,
+      "flight": -12.05,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 6004.59,
+      "hand": null,
+      "hold_time": 104.19,
+      "latency": 153.08,
+      "flight": 61.18,
+      "direction": "S"
+    },
+    {
+      "timestamp": 6202.07,
+      "hand": "R",
+      "hold_time": 77.36,
+      "latency": 197.49,
+      "flight": 93.29,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 6407.16,
+      "hand": "R",
+      "hold_time": 103.29,
+      "latency": 205.09,
+      "flight": 127.73,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 6707.23,
+      "hand": null,
+      "hold_time": 121.44,
+      "latency": 300.07,
+      "flight": 196.78,
+      "direction": "S"
+    },
+    {
+      "timestamp": 6836.11,
+      "hand": null,
+      "hold_time": 135.32,
+      "latency": 128.88,
+      "flight": 7.44,
+      "direction": "S"
+    },
+    {
+      "timestamp": 7005.22,
+      "hand": "L",
+      "hold_time": 125.18,
+      "latency": 169.12,
+      "flight": 33.8,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 7211.05,
+      "hand": "L",
+      "hold_time": 87.23,
+      "latency": 205.83,
+      "flight": 80.65,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 7386.93,
+      "hand": "R",
+      "hold_time": 84.88,
+      "latency": 175.88,
+      "flight": 88.64,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 7537.51,
+      "hand": "R",
+      "hold_time": 97.19,
+      "latency": 150.58,
+      "flight": 65.69,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 7710.16,
+      "hand": "L",
+      "hold_time": 84.03,
+      "latency": 172.66,
+      "flight": 75.47,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 7885.84,
+      "hand": "R",
+      "hold_time": 98.82,
+      "latency": 175.68,
+      "flight": 91.65,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 8070.22,
+      "hand": null,
+      "hold_time": 74.98,
+      "latency": 184.38,
+      "flight": 85.55,
+      "direction": "S"
+    },
+    {
+      "timestamp": 8161.26,
+      "hand": "R",
+      "hold_time": 77.13,
+      "latency": 91.04,
+      "flight": 16.06,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 8330.64,
+      "hand": "L",
+      "hold_time": 77.33,
+      "latency": 169.38,
+      "flight": 92.25,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 8543.32,
+      "hand": "L",
+      "hold_time": 80.64,
+      "latency": 212.68,
+      "flight": 135.35,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 8732.49,
+      "hand": "L",
+      "hold_time": 100.13,
+      "latency": 189.17,
+      "flight": 108.53,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 9011.83,
+      "hand": "R",
+      "hold_time": 121.5,
+      "latency": 279.34,
+      "flight": 179.21,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 9201.01,
+      "hand": "L",
+      "hold_time": 107.98,
+      "latency": 189.18,
+      "flight": 67.69,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 9324.08,
+      "hand": "R",
+      "hold_time": 106.27,
+      "latency": 123.07,
+      "flight": 15.09,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 9547.62,
+      "hand": "L",
+      "hold_time": 96.02,
+      "latency": 223.54,
+      "flight": 117.27,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 9816.1,
+      "hand": "R",
+      "hold_time": 84.43,
+      "latency": 268.48,
+      "flight": 172.46,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 10069.41,
+      "hand": "R",
+      "hold_time": 111.46,
+      "latency": 253.31,
+      "flight": 168.89,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 10263.22,
+      "hand": "L",
+      "hold_time": 171.43,
+      "latency": 193.81,
+      "flight": 82.35,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 10492.62,
+      "hand": null,
+      "hold_time": 90.98,
+      "latency": 229.39,
+      "flight": 57.96,
+      "direction": "S"
+    },
+    {
+      "timestamp": 10756.11,
+      "hand": null,
+      "hold_time": 93.52,
+      "latency": 263.49,
+      "flight": 172.51,
+      "direction": "S"
+    },
+    {
+      "timestamp": 10961.13,
+      "hand": "L",
+      "hold_time": 103.01,
+      "latency": 205.02,
+      "flight": 111.5,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 11116.43,
+      "hand": null,
+      "hold_time": 125.49,
+      "latency": 155.3,
+      "flight": 52.29,
+      "direction": "S"
+    },
+    {
+      "timestamp": 11184.6,
+      "hand": null,
+      "hold_time": 128.91,
+      "latency": 68.17,
+      "flight": -57.32,
+      "direction": "S"
+    },
+    {
+      "timestamp": 11356.1,
+      "hand": "L",
+      "hold_time": 106.91,
+      "latency": 171.51,
+      "flight": 42.6,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 11576.66,
+      "hand": "R",
+      "hold_time": 121.7,
+      "latency": 220.56,
+      "flight": 113.65,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 11778.37,
+      "hand": "R",
+      "hold_time": 118.04,
+      "latency": 201.71,
+      "flight": 80.01,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 12031.5,
+      "hand": "L",
+      "hold_time": 107.67,
+      "latency": 253.13,
+      "flight": 135.09,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 12313.09,
+      "hand": "R",
+      "hold_time": 107.64,
+      "latency": 281.58,
+      "flight": 173.92,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 12492.66,
+      "hand": null,
+      "hold_time": 83.45,
+      "latency": 179.58,
+      "flight": 71.94,
+      "direction": "S"
+    },
+    {
+      "timestamp": 12641.93,
+      "hand": "R",
+      "hold_time": 68.91,
+      "latency": 149.27,
+      "flight": 65.82,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 12792.5,
+      "hand": "L",
+      "hold_time": 85.11,
+      "latency": 150.57,
+      "flight": 81.66,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 12966.43,
+      "hand": null,
+      "hold_time": 111.69,
+      "latency": 173.92,
+      "flight": 88.81,
+      "direction": "S"
+    },
+    {
+      "timestamp": 13109.78,
+      "hand": "L",
+      "hold_time": 117.99,
+      "latency": 143.35,
+      "flight": 31.66,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 13362.75,
+      "hand": null,
+      "hold_time": 123.67,
+      "latency": 252.97,
+      "flight": 134.99,
+      "direction": "S"
+    },
+    {
+      "timestamp": 13569.04,
+      "hand": "R",
+      "hold_time": 148.56,
+      "latency": 206.29,
+      "flight": 82.62,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 13734.82,
+      "hand": null,
+      "hold_time": 99.29,
+      "latency": 165.78,
+      "flight": 17.22,
+      "direction": "S"
+    },
+    {
+      "timestamp": 13883.95,
+      "hand": "L",
+      "hold_time": 53.75,
+      "latency": 149.13,
+      "flight": 49.84,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 14152.68,
+      "hand": "L",
+      "hold_time": 135.94,
+      "latency": 268.74,
+      "flight": 214.99,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 14350.32,
+      "hand": "R",
+      "hold_time": 125.59,
+      "latency": 197.63,
+      "flight": 61.69,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 14504.22,
+      "hand": "L",
+      "hold_time": 106.99,
+      "latency": 153.9,
+      "flight": 28.32,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 14650.29,
+      "hand": "L",
+      "hold_time": 130.87,
+      "latency": 146.07,
+      "flight": 39.07,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 14849.54,
+      "hand": "L",
+      "hold_time": 86.13,
+      "latency": 199.26,
+      "flight": 68.39,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 15012.52,
+      "hand": "L",
+      "hold_time": 103.38,
+      "latency": 162.98,
+      "flight": 76.85,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 15137.61,
+      "hand": "R",
+      "hold_time": 106.02,
+      "latency": 125.09,
+      "flight": 21.71,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 15275.18,
+      "hand": "L",
+      "hold_time": 107.36,
+      "latency": 137.57,
+      "flight": 31.55,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 15429.22,
+      "hand": "R",
+      "hold_time": 108.91,
+      "latency": 154.04,
+      "flight": 46.68,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 15678.9,
+      "hand": null,
+      "hold_time": 93.84,
+      "latency": 249.68,
+      "flight": 140.76,
+      "direction": "S"
+    },
+    {
+      "timestamp": 15903.84,
+      "hand": "L",
+      "hold_time": 124.57,
+      "latency": 224.94,
+      "flight": 131.1,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 16045.35,
+      "hand": "L",
+      "hold_time": 87.45,
+      "latency": 141.51,
+      "flight": 16.94,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 16208.57,
+      "hand": "L",
+      "hold_time": 100.28,
+      "latency": 163.21,
+      "flight": 75.76,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 16361.13,
+      "hand": "R",
+      "hold_time": 93.42,
+      "latency": 152.56,
+      "flight": 52.28,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 16571.54,
+      "hand": "R",
+      "hold_time": 96.71,
+      "latency": 210.4,
+      "flight": 116.99,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 16706.6,
+      "hand": "R",
+      "hold_time": 116.39,
+      "latency": 135.07,
+      "flight": 38.36,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 16819.24,
+      "hand": "R",
+      "hold_time": 62.23,
+      "latency": 112.64,
+      "flight": -3.75,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 17077.29,
+      "hand": "L",
+      "hold_time": 69.41,
+      "latency": 258.05,
+      "flight": 195.82,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 17262.87,
+      "hand": "R",
+      "hold_time": 101.91,
+      "latency": 185.58,
+      "flight": 116.17,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 17439.08,
+      "hand": null,
+      "hold_time": 95.11,
+      "latency": 176.22,
+      "flight": 74.31,
+      "direction": "S"
+    },
+    {
+      "timestamp": 17601.04,
+      "hand": "R",
+      "hold_time": 134.99,
+      "latency": 161.96,
+      "flight": 66.85,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 17867.91,
+      "hand": null,
+      "hold_time": 64.44,
+      "latency": 266.87,
+      "flight": 131.88,
+      "direction": "S"
+    },
+    {
+      "timestamp": 18050.16,
+      "hand": null,
+      "hold_time": 120.44,
+      "latency": 182.24,
+      "flight": 117.8,
+      "direction": "S"
+    },
+    {
+      "timestamp": 18255.09,
+      "hand": null,
+      "hold_time": 105.69,
+      "latency": 204.94,
+      "flight": 84.49,
+      "direction": "S"
+    },
+    {
+      "timestamp": 18478.47,
+      "hand": null,
+      "hold_time": 85.11,
+      "latency": 223.38,
+      "flight": 117.69,
+      "direction": "S"
+    },
+    {
+      "timestamp": 18706.5,
+      "hand": "R",
+      "hold_time": 123.51,
+      "latency": 228.03,
+      "flight": 142.92,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 18884.43,
+      "hand": "L",
+      "hold_time": 86.24,
+      "latency": 177.93,
+      "flight": 54.42,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 19090.69,
+      "hand": "R",
+      "hold_time": 56.54,
+      "latency": 206.27,
+      "flight": 120.03,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 19242.22,
+      "hand": "R",
+      "hold_time": 79.6,
+      "latency": 151.53,
+      "flight": 94.99,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 19421.62,
+      "hand": "L",
+      "hold_time": 90.88,
+      "latency": 179.39,
+      "flight": 99.79,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 19563.34,
+      "hand": null,
+      "hold_time": 99.63,
+      "latency": 141.72,
+      "flight": 50.83,
+      "direction": "S"
+    },
+    {
+      "timestamp": 19819.54,
+      "hand": null,
+      "hold_time": 99.34,
+      "latency": 256.21,
+      "flight": 156.57,
+      "direction": "S"
+    },
+    {
+      "timestamp": 19962.81,
+      "hand": "R",
+      "hold_time": 63.1,
+      "latency": 143.27,
+      "flight": 43.93,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 20176.77,
+      "hand": null,
+      "hold_time": 113.09,
+      "latency": 213.96,
+      "flight": 150.86,
+      "direction": "S"
+    },
+    {
+      "timestamp": 20369.49,
+      "hand": "R",
+      "hold_time": 94.17,
+      "latency": 192.71,
+      "flight": 79.62,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 20601.77,
+      "hand": "R",
+      "hold_time": 101.85,
+      "latency": 232.28,
+      "flight": 138.11,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 20752.89,
+      "hand": null,
+      "hold_time": 82.69,
+      "latency": 151.12,
+      "flight": 49.27,
+      "direction": "S"
+    },
+    {
+      "timestamp": 20895.15,
+      "hand": "L",
+      "hold_time": 65.41,
+      "latency": 142.26,
+      "flight": 59.57,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 21046.98,
+      "hand": null,
+      "hold_time": 87.23,
+      "latency": 151.83,
+      "flight": 86.42,
+      "direction": "S"
+    },
+    {
+      "timestamp": 21174.8,
+      "hand": null,
+      "hold_time": 102.08,
+      "latency": 127.82,
+      "flight": 40.6,
+      "direction": "S"
+    },
+    {
+      "timestamp": 21310.85,
+      "hand": null,
+      "hold_time": 81.03,
+      "latency": 136.05,
+      "flight": 33.96,
+      "direction": "S"
+    },
+    {
+      "timestamp": 21504.35,
+      "hand": "R",
+      "hold_time": 94.39,
+      "latency": 193.5,
+      "flight": 112.47,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 21607.03,
+      "hand": "R",
+      "hold_time": 104.52,
+      "latency": 102.68,
+      "flight": 8.28,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 21793.28,
+      "hand": "R",
+      "hold_time": 57.16,
+      "latency": 186.26,
+      "flight": 81.73,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 22061.24,
+      "hand": "R",
+      "hold_time": 89.88,
+      "latency": 267.96,
+      "flight": 210.8,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 22154.13,
+      "hand": "L",
+      "hold_time": 79.75,
+      "latency": 92.89,
+      "flight": 3.02,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 22345.0,
+      "hand": null,
+      "hold_time": 95.82,
+      "latency": 190.87,
+      "flight": 111.12,
+      "direction": "S"
+    },
+    {
+      "timestamp": 22481.13,
+      "hand": "R",
+      "hold_time": 78.75,
+      "latency": 136.12,
+      "flight": 40.3,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 22553.98,
+      "hand": "L",
+      "hold_time": 122.18,
+      "latency": 72.86,
+      "flight": -5.89,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 22745.01,
+      "hand": "L",
+      "hold_time": 103.73,
+      "latency": 191.03,
+      "flight": 68.86,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 22804.53,
+      "hand": "R",
+      "hold_time": 134.33,
+      "latency": 59.51,
+      "flight": -44.22,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 23025.25,
+      "hand": null,
+      "hold_time": 97.85,
+      "latency": 220.73,
+      "flight": 86.4,
+      "direction": "S"
+    },
+    {
+      "timestamp": 23219.51,
+      "hand": null,
+      "hold_time": 86.84,
+      "latency": 194.26,
+      "flight": 96.41,
+      "direction": "S"
+    },
+    {
+      "timestamp": 23398.28,
+      "hand": "L",
+      "hold_time": 104.41,
+      "latency": 178.77,
+      "flight": 91.93,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 23688.45,
+      "hand": "R",
+      "hold_time": 95.03,
+      "latency": 290.17,
+      "flight": 185.76,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 23885.27,
+      "hand": "R",
+      "hold_time": 108.45,
+      "latency": 196.82,
+      "flight": 101.79,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 24047.61,
+      "hand": "L",
+      "hold_time": 103.62,
+      "latency": 162.34,
+      "flight": 53.89,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 24235.64,
+      "hand": "L",
+      "hold_time": 110.33,
+      "latency": 188.03,
+      "flight": 84.42,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 24488.97,
+      "hand": "L",
+      "hold_time": 93.06,
+      "latency": 253.33,
+      "flight": 143.0,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 24668.44,
+      "hand": "L",
+      "hold_time": 100.6,
+      "latency": 179.47,
+      "flight": 86.41,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 24868.82,
+      "hand": "L",
+      "hold_time": 83.34,
+      "latency": 200.38,
+      "flight": 99.78,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 24978.1,
+      "hand": null,
+      "hold_time": 90.04,
+      "latency": 109.28,
+      "flight": 25.94,
+      "direction": "S"
+    },
+    {
+      "timestamp": 25204.48,
+      "hand": null,
+      "hold_time": 141.93,
+      "latency": 226.38,
+      "flight": 136.34,
+      "direction": "S"
+    },
+    {
+      "timestamp": 25355.01,
+      "hand": "R",
+      "hold_time": 96.04,
+      "latency": 150.53,
+      "flight": 8.6,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 25598.39,
+      "hand": "R",
+      "hold_time": 139.33,
+      "latency": 243.38,
+      "flight": 147.34,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 25752.91,
+      "hand": null,
+      "hold_time": 157.63,
+      "latency": 154.52,
+      "flight": 15.19,
+      "direction": "S"
+    },
+    {
+      "timestamp": 25947.51,
+      "hand": "L",
+      "hold_time": 94.33,
+      "latency": 194.6,
+      "flight": 36.97,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 26114.2,
+      "hand": "L",
+      "hold_time": 83.58,
+      "latency": 166.69,
+      "flight": 72.36,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 26301.07,
+      "hand": null,
+      "hold_time": 120.18,
+      "latency": 186.87,
+      "flight": 103.29,
+      "direction": "S"
+    },
+    {
+      "timestamp": 26527.85,
+      "hand": null,
+      "hold_time": 103.01,
+      "latency": 226.78,
+      "flight": 106.6,
+      "direction": "S"
+    },
+    {
+      "timestamp": 26672.49,
+      "hand": "L",
+      "hold_time": 109.27,
+      "latency": 144.64,
+      "flight": 41.63,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 26807.34,
+      "hand": "L",
+      "hold_time": 90.89,
+      "latency": 134.85,
+      "flight": 25.58,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 26982.7,
+      "hand": "L",
+      "hold_time": 106.53,
+      "latency": 175.36,
+      "flight": 84.47,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 27117.75,
+      "hand": "R",
+      "hold_time": 101.82,
+      "latency": 135.05,
+      "flight": 28.52,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 27382.65,
+      "hand": "L",
+      "hold_time": 106.95,
+      "latency": 264.9,
+      "flight": 163.08,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 27578.03,
+      "hand": "L",
+      "hold_time": 89.03,
+      "latency": 195.38,
+      "flight": 88.43,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 27723.7,
+      "hand": "R",
+      "hold_time": 79.15,
+      "latency": 145.67,
+      "flight": 56.65,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 27860.27,
+      "hand": "L",
+      "hold_time": 106.28,
+      "latency": 136.57,
+      "flight": 57.42,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 28041.59,
+      "hand": null,
+      "hold_time": 122.29,
+      "latency": 181.32,
+      "flight": 75.04,
+      "direction": "S"
+    },
+    {
+      "timestamp": 28217.01,
+      "hand": "R",
+      "hold_time": 83.29,
+      "latency": 175.41,
+      "flight": 53.12,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 28369.03,
+      "hand": "R",
+      "hold_time": 98.3,
+      "latency": 152.02,
+      "flight": 68.73,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 28598.06,
+      "hand": "R",
+      "hold_time": 96.73,
+      "latency": 229.03,
+      "flight": 130.73,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 28751.03,
+      "hand": "R",
+      "hold_time": 112.89,
+      "latency": 152.97,
+      "flight": 56.24,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 28941.75,
+      "hand": null,
+      "hold_time": 156.5,
+      "latency": 190.71,
+      "flight": 77.82,
+      "direction": "S"
+    },
+    {
+      "timestamp": 29043.88,
+      "hand": "R",
+      "hold_time": 96.16,
+      "latency": 102.13,
+      "flight": -54.37,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 29212.78,
+      "hand": "L",
+      "hold_time": 111.31,
+      "latency": 168.91,
+      "flight": 72.75,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 29368.27,
+      "hand": "R",
+      "hold_time": 96.97,
+      "latency": 155.48,
+      "flight": 44.17,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 29638.63,
+      "hand": "L",
+      "hold_time": 97.9,
+      "latency": 270.37,
+      "flight": 173.4,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 29755.85,
+      "hand": "L",
+      "hold_time": 116.48,
+      "latency": 117.22,
+      "flight": 19.32,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 29996.06,
+      "hand": "R",
+      "hold_time": 87.41,
+      "latency": 240.21,
+      "flight": 123.72,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 30163.41,
+      "hand": "R",
+      "hold_time": 93.11,
+      "latency": 167.35,
+      "flight": 79.94,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 30361.52,
+      "hand": "L",
+      "hold_time": 118.61,
+      "latency": 198.11,
+      "flight": 105.0,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 30589.03,
+      "hand": "R",
+      "hold_time": 107.09,
+      "latency": 227.51,
+      "flight": 108.9,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 30767.34,
+      "hand": "R",
+      "hold_time": 122.84,
+      "latency": 178.31,
+      "flight": 71.22,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 30821.38,
+      "hand": "R",
+      "hold_time": 85.99,
+      "latency": 54.03,
+      "flight": -68.8,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 31000.88,
+      "hand": "L",
+      "hold_time": 102.31,
+      "latency": 179.51,
+      "flight": 93.52,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 31150.27,
+      "hand": "L",
+      "hold_time": 93.44,
+      "latency": 149.38,
+      "flight": 47.08,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 31322.31,
+      "hand": "L",
+      "hold_time": 115.71,
+      "latency": 172.04,
+      "flight": 78.6,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 31516.8,
+      "hand": "R",
+      "hold_time": 92.4,
+      "latency": 194.49,
+      "flight": 78.78,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 31750.99,
+      "hand": "R",
+      "hold_time": 100.23,
+      "latency": 234.2,
+      "flight": 141.8,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 31972.35,
+      "hand": "L",
+      "hold_time": 77.81,
+      "latency": 221.36,
+      "flight": 121.12,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 32079.7,
+      "hand": null,
+      "hold_time": 120.17,
+      "latency": 107.35,
+      "flight": 29.54,
+      "direction": "S"
+    },
+    {
+      "timestamp": 32165.69,
+      "hand": "R",
+      "hold_time": 112.79,
+      "latency": 85.99,
+      "flight": -34.18,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 32371.49,
+      "hand": "R",
+      "hold_time": 120.15,
+      "latency": 205.8,
+      "flight": 93.01,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 32597.31,
+      "hand": "L",
+      "hold_time": 95.4,
+      "latency": 225.82,
+      "flight": 105.67,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 32725.09,
+      "hand": "R",
+      "hold_time": 88.43,
+      "latency": 127.78,
+      "flight": 32.38,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 32873.72,
+      "hand": "L",
+      "hold_time": 110.27,
+      "latency": 148.63,
+      "flight": 60.2,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 33122.99,
+      "hand": "R",
+      "hold_time": 105.03,
+      "latency": 249.27,
+      "flight": 139.0,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 33369.76,
+      "hand": "R",
+      "hold_time": 105.88,
+      "latency": 246.76,
+      "flight": 141.73,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 33496.92,
+      "hand": null,
+      "hold_time": 109.99,
+      "latency": 127.17,
+      "flight": 21.29,
+      "direction": "S"
+    },
+    {
+      "timestamp": 33690.82,
+      "hand": "R",
+      "hold_time": 82.34,
+      "latency": 193.9,
+      "flight": 83.91,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 33830.1,
+      "hand": "L",
+      "hold_time": 58.95,
+      "latency": 139.28,
+      "flight": 56.94,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 33959.41,
+      "hand": "R",
+      "hold_time": 82.24,
+      "latency": 129.31,
+      "flight": 70.36,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 34131.76,
+      "hand": "L",
+      "hold_time": 88.69,
+      "latency": 172.35,
+      "flight": 90.11,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 34287.49,
+      "hand": null,
+      "hold_time": 105.02,
+      "latency": 155.73,
+      "flight": 67.03,
+      "direction": "S"
+    },
+    {
+      "timestamp": 34516.14,
+      "hand": null,
+      "hold_time": 113.4,
+      "latency": 228.65,
+      "flight": 123.64,
+      "direction": "S"
+    },
+    {
+      "timestamp": 34663.11,
+      "hand": "R",
+      "hold_time": 108.23,
+      "latency": 146.97,
+      "flight": 33.57,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 34790.05,
+      "hand": null,
+      "hold_time": 94.98,
+      "latency": 126.94,
+      "flight": 18.7,
+      "direction": "S"
+    },
+    {
+      "timestamp": 34944.01,
+      "hand": null,
+      "hold_time": 82.82,
+      "latency": 153.96,
+      "flight": 58.98,
+      "direction": "S"
+    },
+    {
+      "timestamp": 35138.83,
+      "hand": "R",
+      "hold_time": 122.49,
+      "latency": 194.81,
+      "flight": 112.0,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 35350.34,
+      "hand": "L",
+      "hold_time": 101.09,
+      "latency": 211.52,
+      "flight": 89.03,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 35492.26,
+      "hand": "R",
+      "hold_time": 86.57,
+      "latency": 141.91,
+      "flight": 40.83,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 35670.92,
+      "hand": "R",
+      "hold_time": 71.15,
+      "latency": 178.66,
+      "flight": 92.1,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 35829.15,
+      "hand": "L",
+      "hold_time": 118.36,
+      "latency": 158.23,
+      "flight": 87.08,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 35955.48,
+      "hand": null,
+      "hold_time": 123.8,
+      "latency": 126.33,
+      "flight": 7.97,
+      "direction": "S"
+    },
+    {
+      "timestamp": 36190.54,
+      "hand": "R",
+      "hold_time": 100.63,
+      "latency": 235.06,
+      "flight": 111.26,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 36390.42,
+      "hand": null,
+      "hold_time": 97.06,
+      "latency": 199.88,
+      "flight": 99.24,
+      "direction": "S"
+    },
+    {
+      "timestamp": 36596.3,
+      "hand": "R",
+      "hold_time": 104.47,
+      "latency": 205.88,
+      "flight": 108.82,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 36679.06,
+      "hand": "R",
+      "hold_time": 90.79,
+      "latency": 82.76,
+      "flight": -21.71,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 36859.12,
+      "hand": "L",
+      "hold_time": 84.88,
+      "latency": 180.06,
+      "flight": 89.27,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 37079.33,
+      "hand": "R",
+      "hold_time": 114.1,
+      "latency": 220.21,
+      "flight": 135.33,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 37191.4,
+      "hand": "R",
+      "hold_time": 92.97,
+      "latency": 112.06,
+      "flight": -2.04,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 37315.93,
+      "hand": "R",
+      "hold_time": 77.5,
+      "latency": 124.54,
+      "flight": 31.56,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 37498.8,
+      "hand": "R",
+      "hold_time": 98.04,
+      "latency": 182.87,
+      "flight": 105.37,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 37703.0,
+      "hand": "L",
+      "hold_time": 109.99,
+      "latency": 204.19,
+      "flight": 106.15,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 37879.94,
+      "hand": "L",
+      "hold_time": 118.3,
+      "latency": 176.95,
+      "flight": 66.96,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 38030.08,
+      "hand": "L",
+      "hold_time": 75.96,
+      "latency": 150.13,
+      "flight": 31.84,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 38220.25,
+      "hand": "R",
+      "hold_time": 110.57,
+      "latency": 190.17,
+      "flight": 114.21,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 38417.03,
+      "hand": "R",
+      "hold_time": 131.5,
+      "latency": 196.78,
+      "flight": 86.21,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 38580.4,
+      "hand": "R",
+      "hold_time": 137.16,
+      "latency": 163.37,
+      "flight": 31.87,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 38736.76,
+      "hand": "R",
+      "hold_time": 87.02,
+      "latency": 156.36,
+      "flight": 19.2,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 38868.96,
+      "hand": null,
+      "hold_time": 94.64,
+      "latency": 132.21,
+      "flight": 45.19,
+      "direction": "S"
+    },
+    {
+      "timestamp": 39069.74,
+      "hand": "L",
+      "hold_time": 99.42,
+      "latency": 200.77,
+      "flight": 106.13,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 39276.69,
+      "hand": null,
+      "hold_time": 91.88,
+      "latency": 206.95,
+      "flight": 107.53,
+      "direction": "S"
+    },
+    {
+      "timestamp": 39386.8,
+      "hand": "R",
+      "hold_time": 99.41,
+      "latency": 110.11,
+      "flight": 18.23,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 39600.91,
+      "hand": "L",
+      "hold_time": 86.95,
+      "latency": 214.12,
+      "flight": 114.71,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 39706.84,
+      "hand": "L",
+      "hold_time": 69.09,
+      "latency": 105.92,
+      "flight": 18.97,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 39917.6,
+      "hand": null,
+      "hold_time": 68.85,
+      "latency": 210.77,
+      "flight": 141.68,
+      "direction": "S"
+    },
+    {
+      "timestamp": 40052.11,
+      "hand": "R",
+      "hold_time": 78.87,
+      "latency": 134.5,
+      "flight": 65.66,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 40201.07,
+      "hand": "L",
+      "hold_time": 147.08,
+      "latency": 148.96,
+      "flight": 70.09,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 40306.26,
+      "hand": "R",
+      "hold_time": 80.2,
+      "latency": 105.2,
+      "flight": -41.89,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 40519.2,
+      "hand": null,
+      "hold_time": 91.1,
+      "latency": 212.93,
+      "flight": 132.73,
+      "direction": "S"
+    },
+    {
+      "timestamp": 40682.37,
+      "hand": null,
+      "hold_time": 115.41,
+      "latency": 163.17,
+      "flight": 72.07,
+      "direction": "S"
+    },
+    {
+      "timestamp": 40940.56,
+      "hand": "L",
+      "hold_time": 115.19,
+      "latency": 258.19,
+      "flight": 142.78,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 41168.97,
+      "hand": "R",
+      "hold_time": 107.67,
+      "latency": 228.41,
+      "flight": 113.23,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 41344.24,
+      "hand": "L",
+      "hold_time": 77.46,
+      "latency": 175.27,
+      "flight": 67.59,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 41508.74,
+      "hand": "R",
+      "hold_time": 129.79,
+      "latency": 164.51,
+      "flight": 87.05,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 41758.37,
+      "hand": "R",
+      "hold_time": 96.91,
+      "latency": 249.63,
+      "flight": 119.84,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 41972.72,
+      "hand": null,
+      "hold_time": 103.87,
+      "latency": 214.35,
+      "flight": 117.44,
+      "direction": "S"
+    },
+    {
+      "timestamp": 42172.55,
+      "hand": "L",
+      "hold_time": 103.99,
+      "latency": 199.83,
+      "flight": 95.96,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 42379.8,
+      "hand": "L",
+      "hold_time": 83.4,
+      "latency": 207.25,
+      "flight": 103.26,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 42532.34,
+      "hand": "R",
+      "hold_time": 91.26,
+      "latency": 152.54,
+      "flight": 69.14,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 42674.36,
+      "hand": "R",
+      "hold_time": 126.78,
+      "latency": 142.02,
+      "flight": 50.76,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 42858.04,
+      "hand": "R",
+      "hold_time": 113.8,
+      "latency": 183.68,
+      "flight": 56.9,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 43067.42,
+      "hand": null,
+      "hold_time": 74.25,
+      "latency": 209.38,
+      "flight": 95.58,
+      "direction": "S"
+    },
+    {
+      "timestamp": 43279.72,
+      "hand": "L",
+      "hold_time": 96.5,
+      "latency": 212.3,
+      "flight": 138.05,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 43459.93,
+      "hand": "L",
+      "hold_time": 107.06,
+      "latency": 180.21,
+      "flight": 83.71,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 43635.62,
+      "hand": "L",
+      "hold_time": 104.22,
+      "latency": 175.69,
+      "flight": 68.63,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 43725.9,
+      "hand": "L",
+      "hold_time": 61.86,
+      "latency": 90.29,
+      "flight": -13.93,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 43851.51,
+      "hand": null,
+      "hold_time": 117.67,
+      "latency": 125.61,
+      "flight": 63.75,
+      "direction": "S"
+    },
+    {
+      "timestamp": 44030.11,
+      "hand": "L",
+      "hold_time": 77.26,
+      "latency": 178.59,
+      "flight": 60.92,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 44136.26,
+      "hand": "L",
+      "hold_time": 136.21,
+      "latency": 106.15,
+      "flight": 28.9,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 44308.68,
+      "hand": "R",
+      "hold_time": 70.18,
+      "latency": 172.42,
+      "flight": 36.21,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 44532.46,
+      "hand": "R",
+      "hold_time": 111.03,
+      "latency": 223.78,
+      "flight": 153.61,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 44720.57,
+      "hand": "R",
+      "hold_time": 128.49,
+      "latency": 188.11,
+      "flight": 77.08,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 44769.83,
+      "hand": "R",
+      "hold_time": 98.82,
+      "latency": 49.26,
+      "flight": -79.24,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 44962.62,
+      "hand": "R",
+      "hold_time": 82.84,
+      "latency": 192.79,
+      "flight": 93.97,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 45094.46,
+      "hand": "L",
+      "hold_time": 97.75,
+      "latency": 131.84,
+      "flight": 49.0,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 45273.63,
+      "hand": null,
+      "hold_time": 113.31,
+      "latency": 179.17,
+      "flight": 81.42,
+      "direction": "S"
+    },
+    {
+      "timestamp": 45538.32,
+      "hand": "R",
+      "hold_time": 94.73,
+      "latency": 264.69,
+      "flight": 151.38,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 45646.77,
+      "hand": "R",
+      "hold_time": 98.92,
+      "latency": 108.45,
+      "flight": 13.73,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 45785.86,
+      "hand": "L",
+      "hold_time": 124.89,
+      "latency": 139.09,
+      "flight": 40.17,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 45897.48,
+      "hand": "L",
+      "hold_time": 92.79,
+      "latency": 111.62,
+      "flight": -13.27,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 46130.03,
+      "hand": "R",
+      "hold_time": 83.56,
+      "latency": 232.55,
+      "flight": 139.76,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 46362.67,
+      "hand": null,
+      "hold_time": 134.33,
+      "latency": 232.64,
+      "flight": 149.08,
+      "direction": "S"
+    },
+    {
+      "timestamp": 46429.42,
+      "hand": "L",
+      "hold_time": 69.52,
+      "latency": 66.76,
+      "flight": -67.57,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 46570.74,
+      "hand": "R",
+      "hold_time": 80.44,
+      "latency": 141.31,
+      "flight": 71.79,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 46778.28,
+      "hand": "L",
+      "hold_time": 131.34,
+      "latency": 207.54,
+      "flight": 127.1,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 47039.25,
+      "hand": null,
+      "hold_time": 100.07,
+      "latency": 260.97,
+      "flight": 129.63,
+      "direction": "S"
+    },
+    {
+      "timestamp": 47281.59,
+      "hand": "R",
+      "hold_time": 132.73,
+      "latency": 242.34,
+      "flight": 142.27,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 47461.04,
+      "hand": "R",
+      "hold_time": 84.15,
+      "latency": 179.45,
+      "flight": 46.72,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 47624.15,
+      "hand": "R",
+      "hold_time": 87.11,
+      "latency": 163.11,
+      "flight": 78.96,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 47788.29,
+      "hand": "L",
+      "hold_time": 137.05,
+      "latency": 164.14,
+      "flight": 77.04,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 47879.08,
+      "hand": null,
+      "hold_time": 90.16,
+      "latency": 90.78,
+      "flight": -46.27,
+      "direction": "S"
+    },
+    {
+      "timestamp": 48055.03,
+      "hand": "R",
+      "hold_time": 99.12,
+      "latency": 175.95,
+      "flight": 85.79,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 48293.65,
+      "hand": "R",
+      "hold_time": 116.3,
+      "latency": 238.62,
+      "flight": 139.5,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 48505.81,
+      "hand": "R",
+      "hold_time": 91.77,
+      "latency": 212.16,
+      "flight": 95.86,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 48685.82,
+      "hand": "L",
+      "hold_time": 132.49,
+      "latency": 180.01,
+      "flight": 88.24,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 48787.37,
+      "hand": "R",
+      "hold_time": 88.38,
+      "latency": 101.56,
+      "flight": -30.93,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 48908.89,
+      "hand": "R",
+      "hold_time": 137.48,
+      "latency": 121.52,
+      "flight": 33.14,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 48997.32,
+      "hand": "L",
+      "hold_time": 72.9,
+      "latency": 88.43,
+      "flight": -49.05,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 49193.3,
+      "hand": null,
+      "hold_time": 143.04,
+      "latency": 195.98,
+      "flight": 123.08,
+      "direction": "S"
+    },
+    {
+      "timestamp": 49368.77,
+      "hand": "L",
+      "hold_time": 117.59,
+      "latency": 175.47,
+      "flight": 32.43,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 49582.16,
+      "hand": "R",
+      "hold_time": 84.97,
+      "latency": 213.39,
+      "flight": 95.8,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 49768.74,
+      "hand": "R",
+      "hold_time": 130.93,
+      "latency": 186.59,
+      "flight": 101.62,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 49977.68,
+      "hand": "L",
+      "hold_time": 131.53,
+      "latency": 208.94,
+      "flight": 78.0,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 50079.02,
+      "hand": "R",
+      "hold_time": 96.87,
+      "latency": 101.33,
+      "flight": -30.19,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 50242.2,
+      "hand": "R",
+      "hold_time": 64.42,
+      "latency": 163.18,
+      "flight": 66.31,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 50460.08,
+      "hand": null,
+      "hold_time": 94.46,
+      "latency": 217.89,
+      "flight": 153.46,
+      "direction": "S"
+    },
+    {
+      "timestamp": 50574.79,
+      "hand": "R",
+      "hold_time": 101.05,
+      "latency": 114.71,
+      "flight": 20.25,
+      "direction": "SR"
+    },
+    {
+      "timestamp": 50714.17,
+      "hand": "L",
+      "hold_time": 111.18,
+      "latency": 139.38,
+      "flight": 38.34,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 50888.95,
+      "hand": "R",
+      "hold_time": 90.71,
+      "latency": 174.77,
+      "flight": 63.59,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 51131.35,
+      "hand": "L",
+      "hold_time": 103.91,
+      "latency": 242.4,
+      "flight": 151.7,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 51383.4,
+      "hand": "L",
+      "hold_time": 106.67,
+      "latency": 252.05,
+      "flight": 148.13,
+      "direction": "LL"
+    },
+    {
+      "timestamp": 51673.95,
+      "hand": "R",
+      "hold_time": 113.42,
+      "latency": 290.55,
+      "flight": 183.88,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 51810.96,
+      "hand": "L",
+      "hold_time": 112.28,
+      "latency": 137.01,
+      "flight": 23.59,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 51967.93,
+      "hand": "R",
+      "hold_time": 139.87,
+      "latency": 156.96,
+      "flight": 44.68,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 52187.96,
+      "hand": null,
+      "hold_time": 106.14,
+      "latency": 220.03,
+      "flight": 80.16,
+      "direction": "S"
+    },
+    {
+      "timestamp": 52453.85,
+      "hand": null,
+      "hold_time": 82.2,
+      "latency": 265.9,
+      "flight": 159.76,
+      "direction": "S"
+    },
+    {
+      "timestamp": 52626.19,
+      "hand": "L",
+      "hold_time": 72.59,
+      "latency": 172.34,
+      "flight": 90.14,
+      "direction": "SL"
+    },
+    {
+      "timestamp": 52849.89,
+      "hand": "R",
+      "hold_time": 75.98,
+      "latency": 223.69,
+      "flight": 151.1,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 53056.95,
+      "hand": "L",
+      "hold_time": 94.28,
+      "latency": 207.06,
+      "flight": 131.08,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 53200.01,
+      "hand": "R",
+      "hold_time": 106.02,
+      "latency": 143.06,
+      "flight": 48.78,
+      "direction": "LR"
+    },
+    {
+      "timestamp": 53409.05,
+      "hand": "R",
+      "hold_time": 127.72,
+      "latency": 209.04,
+      "flight": 103.02,
+      "direction": "RR"
+    },
+    {
+      "timestamp": 53653.46,
+      "hand": "L",
+      "hold_time": 99.89,
+      "latency": 244.42,
+      "flight": 116.7,
+      "direction": "RL"
+    },
+    {
+      "timestamp": 53868.06,
+      "hand": "L",
+      "hold_time": 106.37,
+      "latency": 214.6,
+      "flight": 114.71,
+      "direction": "LL"
+    }
+  ],
+  "summary": {
+    "count": 300,
+    "meanHold": 101.35,
+    "meanLatency": 180.16,
+    "meanFlight": 78.83,
+    "medianHold": 99.98
+  }
+}
